@@ -20,8 +20,8 @@ class CreateOrganizacionaJedinicasTable extends Migration
             $table->string('naziv_latinica');
             $table->string('naziv_cirilica');
             $table->string('naziv_resenje');
-            $table->string('funkcionalna_definicija_id');
-            $table->string('teritorijalna_definicija_id');
+            $table->bigInteger('funkcionalna_definicija_id');
+            $table->bigInteger('teritorijalna_definicija_id');
             $table->date('datum_kreiranja');
             $table->date('datum_gasenja')->nullable();
             $table->date('datum_primene');

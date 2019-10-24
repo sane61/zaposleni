@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TeritorijalnaDefinicija extends Model
+class Subspecijalizacija extends Model
 {
     //
 }
